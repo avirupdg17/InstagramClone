@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.sidenav{
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    top: 0;
+    padding-top: 20px;
+    background-color: rgb(37, 35, 35);
+    min-width: 200px;
+}
+
+.sidenav a{
+    text-decoration: none;
+    display: block;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 8px 8px 8px 32px;
+}
+
+
+.container{
+    margin-left:200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: auto;
+    justify-content: center;
+    object-fit: cover;
+    
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    margin: 25px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.author {
+    padding: 2px 16px;
+  }
